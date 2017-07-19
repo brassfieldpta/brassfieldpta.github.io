@@ -7862,8 +7862,8 @@ pre {
   margin-bottom: 5px; }
 
 .page-header img {
-  width: 96px;
-  height: 96px; }
+  max-width: 132px;
+  max-height: 89px; }
 
 a.header-title {
   font-size: 28px;
