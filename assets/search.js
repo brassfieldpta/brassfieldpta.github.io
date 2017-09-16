@@ -36,6 +36,10 @@
   console.log(searchTerm);
   if (searchTerm) {
     
+    gtag('event', 'view_search_results', {
+        'event_category': 'search',
+        'event_label': searchTerm
+    });
     document.getElementById('search-box').setAttribute("value", searchTerm);
 
     // Initalize lunr with the fields it will be searching on. I've given title
