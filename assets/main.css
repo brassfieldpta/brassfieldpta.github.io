@@ -7901,4 +7901,11 @@ nav.navbar {
   text-indent: 3em; }
 
 p {
+  padding-left: 10px;
   color: #0c0f31; }
+
+.events > p {
+  font-size: 12px; }
+
+.events .signed {
+  padding-left: 20px; }
